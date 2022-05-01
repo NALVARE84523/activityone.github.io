@@ -51,12 +51,8 @@ img, video {
 .imageGuitarra {
   object-fit: contain;
 }
-.contenido {
-  padding: 1rem;
-}
 .contenido h3 {
   font-size: 3rem;
-  text-transform: uppercase;
 }
 .descripcion {
   display: -webkit-box;
