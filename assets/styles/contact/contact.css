@@ -7,6 +7,10 @@
 	padding: 2rem 4rem;
   background-color: #fbfbfb;
 }
+
+.contact_form  button {
+	color: white;
+}
 input{
 	background-color: #fbfbfb; 
 	width: 100%; 
@@ -50,9 +54,6 @@ button{
 	max-width: 420px;
   width: 70%;   
   cursor: pointer;
-}
-button p{
-	color: #fff; 
 }
 span{
 	color: #e99401; 
