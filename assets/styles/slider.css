@@ -1,0 +1,102 @@
+.carousel-container1, .carousel-container2  {
+  width: 80%;
+  max-width: 1280px;
+  margin: 50px auto;
+  min-height: 200px;
+  position: relative;
+}
+@media(min-width: 768px) {
+  .carousel-container1, .carousel-container2 {
+    width: 60%;
+  }
+}
+@media(min-width: 992px) {
+  .carousel-container1, .carousel-container2 {
+    width: 80%;
+  }
+}
+@media(min-width: 1024px) {
+  .carousel-container1, .carousel-container2 {
+    width: 94%;
+  }
+}
+.carousel-container1 .carousel-inner1, .carousel-container2 .carousel-inner1 {
+  overflow: hidden;
+  width: 270px;
+  margin: auto;
+}
+@media(min-width: 556px) {
+  .carousel-container1 .carousel-inner1, .carousel-container2 .carousel-inner1 {
+    width: 350px;
+  }
+}
+@media(min-width: 992px) {
+  .carousel-container1 .carousel-inner1, .carousel-container2 .carousel-inner1 {
+    width: 700px;
+  }
+}
+@media(min-width: 1200px) {
+  .carousel-container1 .carousel-inner1, .carousel-container2 .carousel-inner1 {
+    width: 1050px;
+  }
+}
+.carousel-container1 .track, .carousel-container2 .track {
+  display: inline-flex;
+  transition: transform 0.5s;
+}
+.carousel-container1 .card-container, .carousel-container2 .card-container {
+  width: 270px;
+  flex-shrink: 0;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.carousel-container1 .card-container {
+  height: 900px;
+}
+.carousel-container2 .card-container {
+  height: 600px;
+}
+
+@media(min-width: 556px) {
+  .carousel-container1 .card-container {
+    width: 350px;
+    height: 320px;
+  }
+  .carousel-container2 .card-container {
+    width: 350px;
+    height: 550px;
+  }
+}
+@media(min-width: 768px) {
+  .carousel-container1 .card-container {
+    
+  }
+}
+.nav1 button {
+  background: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px #000 solid;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.nav1 .prev {
+  left: -30px;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: none;
+}
+.nav1 .prev.show {
+  display: block;
+}
+.nav1 .next {
+  padding: 0 !important;
+  margin: 0 !important;
+  right: -30px;
+}
+.nav1 .next.hide {
+  display: none;
+}
